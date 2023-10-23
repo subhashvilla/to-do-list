@@ -13,11 +13,11 @@ document.getElementById("add").onclick = function () {
         let alltasks = document.querySelectorAll(".del")
         for (let i = 0; i < alltasks.length; i++) {
             alltasks[i].onclick = function () {
-                console.log(this)
-                console.log(this.parentNode)
+                // console.log(this)
+                // console.log(this.parentNode)
                 this.parentNode.remove()
             }
         }
-        todoele.value = ""
+
     }
 }
